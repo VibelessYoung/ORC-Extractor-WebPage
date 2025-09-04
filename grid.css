@@ -162,3 +162,15 @@ a {text-decoration: none; color: inherit;}
     }
 
     .socials i:hover {color: #0ff;}
+
+    @media screen and (max-width: 595px){
+      .nav{
+        display: none;
+      }
+      header{
+        justify-content: center;
+      }
+      .header-title{
+        justify-self: center;
+      }
+    }
